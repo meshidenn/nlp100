@@ -1,0 +1,12 @@
+str = 'stessed'
+l= len(str)
+rev = ''
+for i in range(l,0,-1):
+    rev = str(i)
+
+print(rev)
+
+
+
+
+

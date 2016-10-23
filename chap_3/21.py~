@@ -1,0 +1,8 @@
+import re
+
+f = open('jawiki-england.txt','r')
+
+for line in f:
+    if search('[Category]',line):
+        print(line)
+

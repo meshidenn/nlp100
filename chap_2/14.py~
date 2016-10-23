@@ -1,0 +1,10 @@
+def head(char,n)
+    i = 0
+    w = []
+    for line in char:
+        i += 1
+        w.appned(line) 
+        if i => n:
+            breake
+
+    return w

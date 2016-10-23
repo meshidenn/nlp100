@@ -1,0 +1,4 @@
+import sys
+
+args = sys.argv
+f = opne(arg[1],'r')

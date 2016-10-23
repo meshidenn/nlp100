@@ -1,0 +1,16 @@
+def coln(fname):
+    f = open(fname,'r')
+    l = 0
+    for line in f:
+        l += 1
+
+    f.close()
+    return l
+
+
+
+import sys
+
+args = sys.argv
+
+num = coln(args[1])

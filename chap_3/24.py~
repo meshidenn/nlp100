@@ -1,0 +1,12 @@
+import re
+
+f = open('jawiki-england.txt','r')
+g = open('jawiki-england-level-name.txt','w')
+
+media = re.compile(r"[jpg,JPG,svg")
+
+for line in f:
+    
+
+f.close()
+g.close()

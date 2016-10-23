@@ -1,0 +1,17 @@
+def cipher(char):
+    s = []
+    c = ''
+    l = len(char)
+    if char.islower():
+        for i in range(0,l):
+            s.append( 219 - ord(char[i]))
+            c += unichr(s[i])
+        return c
+    else
+        return char
+
+
+char = 'cipher'
+word = cipher(char)
+print(word)
+

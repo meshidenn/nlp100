@@ -1,0 +1,16 @@
+# coding: utf-8
+
+import sys
+
+c = u'パタトクカシーー'
+l= len(c)
+rev = u''
+for i in range(1,8,2):
+    rev += c[i]
+    print(i)
+print(rev)
+
+
+
+
+

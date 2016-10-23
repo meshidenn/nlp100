@@ -1,0 +1,19 @@
+def ngram(char,n):
+    gram = []
+    l = len(char)
+    for i in range(0,l-n+1):
+        buf = ''
+        for j in range(i,n+i):
+            buf += char[j]
+        gram.append(buf)
+
+import sys
+
+args = sys.argv
+col1 = []
+
+f = open(args[1],'r')
+        
+for line in f:
+    buf = line.split('\t')
+    col1.append(buf[0])

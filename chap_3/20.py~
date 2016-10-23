@@ -1,0 +1,5 @@
+f = open('jpwiki-country.json')
+
+data = json.load(f)
+
+print(data)
