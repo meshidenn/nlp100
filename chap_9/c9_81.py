@@ -73,7 +73,7 @@ def main():
         lemlist = mk_nation_lemlist(f)
         
         
-    with open('proc_2.txt','r') as g:
+    with open('proc_3.txt','r') as g:
         conv_list = lemmatizer(g,lemlist)
 
     return conv_list
@@ -81,7 +81,7 @@ def main():
 if __name__ == '__main__':
     conv_list = main()
 
-    with open('lemmatize.txt','w') as f:
+    with open('lemmatize_2.txt','w') as f:
         for conv in conv_list:
             out = ''
             for token in conv:
